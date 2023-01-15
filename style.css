@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Minecraft;
+    src: url("imgs/Minecraft.ttf");
+    font-family: Consolas;
+    src: url("imgs/consolab.ttf")
+}
+
+html {
+    height: 1080px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .333);
+    background-image: url('imgs/line-paper.png');
+    margin: 50px 20px 0 20px;
+}
+
+.home-grid div {
+    width: auto;
+    height: auto;
+}
+
+.home-grid {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px 200px;
+    ;
+}
+
+main {
+    margin: 0 auto;
+    height: 100%;
+    width: 1000px;
+    line-height: 28.25px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-family: Minecraft;
+}
+
+p, em, button {
+    font-family: Consolas;
+}
+
+#next-frame-1 {
+    border: 2px solid black;
+    display: block;
+    background-color:aqua;
+    height: 21px;
+    margin-top: 8px;
+}
+
+button:hover {
+    text-emphasis: bold;
+    background-color: rgba(00, 220, 220, .95);
+}
+hr {
+    background-repeat: repeat;
+}
+
+button {
+    border: 2px solid black;
+    display: block;
+    background-color:aqua;
+    height: 21px;
+    margin-top: 8px;
+}
